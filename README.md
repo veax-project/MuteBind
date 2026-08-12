@@ -1,6 +1,6 @@
 # MuteBind
 
-[![VirusTotal: 0/68 clean](https://img.shields.io/badge/VirusTotal-0%2F68%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/b7c615ee9041c1e3363840dabbde03f7f447166b3f63400ee66d35cbb81c446b)
+[![VirusTotal: 0/68 clean](https://img.shields.io/badge/VirusTotal-0%2F68%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/c569fe88291d5a9a19669edcdbeaae1c2835a31c17064ff73d1e76ee71ad9aad)
 [![Downloads](https://img.shields.io/github/downloads/veax-project/MuteBind/total?logo=github&label=downloads)](https://github.com/veax-project/MuteBind/releases)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#)
 [![Free to use](https://img.shields.io/badge/price-free-success)](#)
@@ -23,6 +23,7 @@ orange LED lighting up when you're muted — just like on PS5.
 - 🎙️ **Mute / unmute Discord** with a single press of the key of your choice.
 - 🎮 **PS5 DualSense mute button** (DualSense & DualSense Edge, over USB): the mic button
   toggles Discord **and glows orange** when you're muted — exactly like on PS5.
+- 🔔 **On-screen mute notification** (FluentFlyout style) — position, duration, fade speed and opacity all adjustable.
 - 🎛️ **Simple UI**: click "Change…", press your key, save. Done.
 - 🌍 **Works everywhere**: a low-level keyboard hook catches your key even when a game has
   focus (use *borderless windowed* for best results).
@@ -41,7 +42,7 @@ orange LED lighting up when you're muted — just like on PS5.
 
 Yes — and you don't have to take my word for it:
 
-- **[Clean on VirusTotal: 0 / 68 detections](https://www.virustotal.com/gui/file/b7c615ee9041c1e3363840dabbde03f7f447166b3f63400ee66d35cbb81c446b)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
+- **[Clean on VirusTotal: 0 / 68 detections](https://www.virustotal.com/gui/file/c569fe88291d5a9a19669edcdbeaae1c2835a31c17064ff73d1e76ee71ad9aad)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
 - **No account, no telemetry, no network calls** — it only talks to Discord (by simulating a keystroke) and to your controller (USB HID), all locally.
 - **Single-purpose** — one small tool that does exactly one thing.
 
