@@ -1,6 +1,6 @@
 # MuteBind
 
-[![VirusTotal: 0/68 clean](https://img.shields.io/badge/VirusTotal-0%2F68%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)
+[![VirusTotal: 0/69 clean](https://img.shields.io/badge/VirusTotal-0%2F69%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)
 [![Downloads](https://img.shields.io/github/downloads/veax-project/MuteBind/total?logo=github&label=downloads)](https://github.com/veax-project/MuteBind/releases)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#)
 [![Free to use](https://img.shields.io/badge/price-free-success)](#)
@@ -43,7 +43,7 @@ orange LED lighting up when you're muted — just like on PS5.
 
 Yes — and you don't have to take my word for it:
 
-- **[Clean on VirusTotal: 0 / 68 detections](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
+- **[Clean on VirusTotal: 0 / 69 detections](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
 - **No account, no telemetry, no network calls** — it only talks to Discord (by simulating a keystroke) and to your controller (USB HID), all locally.
 - **Single-purpose** — one small tool that does exactly one thing.
 
