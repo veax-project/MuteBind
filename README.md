@@ -1,6 +1,6 @@
 # MuteBind
 
-[![VirusTotal: 0/68 clean](https://img.shields.io/badge/VirusTotal-0%2F68%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/c569fe88291d5a9a19669edcdbeaae1c2835a31c17064ff73d1e76ee71ad9aad)
+[![VirusTotal: 0/68 clean](https://img.shields.io/badge/VirusTotal-0%2F68%20clean-brightgreen?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)
 [![Downloads](https://img.shields.io/github/downloads/veax-project/MuteBind/total?logo=github&label=downloads)](https://github.com/veax-project/MuteBind/releases)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#)
 [![Free to use](https://img.shields.io/badge/price-free-success)](#)
@@ -24,6 +24,7 @@ orange LED lighting up when you're muted — just like on PS5.
 - 🎮 **PS5 DualSense mute button** (DualSense & DualSense Edge, over USB): the mic button
   toggles Discord **and glows orange** when you're muted — exactly like on PS5.
 - 🔔 **On-screen mute notification** (FluentFlyout style) — position, duration, fade speed and opacity all adjustable.
+- 🔄 **Stays in sync with Discord**: reads Discord's real mic state, so the notification and controller LED are always right — even if you also click mute in Discord itself.
 - 🎛️ **Simple UI**: click "Change…", press your key, save. Done.
 - 🌍 **Works everywhere**: a low-level keyboard hook catches your key even when a game has
   focus (use *borderless windowed* for best results).
@@ -42,7 +43,7 @@ orange LED lighting up when you're muted — just like on PS5.
 
 Yes — and you don't have to take my word for it:
 
-- **[Clean on VirusTotal: 0 / 68 detections](https://www.virustotal.com/gui/file/c569fe88291d5a9a19669edcdbeaae1c2835a31c17064ff73d1e76ee71ad9aad)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
+- **[Clean on VirusTotal: 0 / 68 detections](https://www.virustotal.com/gui/file/8bea5e7bb30f83c0103e16f0053b487f6c98ffed449265f7430e999ab79e2fe5)** — VirusTotal indexes by file hash, so that link always shows the current result for this exact `.exe`. Scan it yourself anytime.
 - **No account, no telemetry, no network calls** — it only talks to Discord (by simulating a keystroke) and to your controller (USB HID), all locally.
 - **Single-purpose** — one small tool that does exactly one thing.
 
@@ -53,10 +54,10 @@ The exe isn't code-signed (signing certificates cost money), so **Windows SmartS
 On first launch, the settings window opens:
 
 ### 1. Set up Discord (once)
-Click **"Set up Discord"** and follow the steps:
-- Discord → **Settings** → **Keybinds** → **Add a Keybind**
-- Action: **"Toggle Mute"**
-- Record the combo: **`Ctrl + Alt + Shift`**
+Click **"Set up Discord"** and follow the on-screen path:
+- Discord → **Settings** → **System** → **Custom Keybinds** → **Add a Keybind**
+- **Keybind action**: **"Toggle Mute"**
+- Record the shortcut: **`Ctrl + Alt + Shift`**
 
 > This combo is deliberately rare so it never clashes with your games. It's the internal
 > "pipe": you'll only ever use **your own** key.
