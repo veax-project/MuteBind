@@ -103,5 +103,5 @@ Settings are stored in `%AppData%\MuteBind\config.json`.
 
 **Proprietary — © 2026 Veax. All rights reserved.**
 
-MuteBind is **free to download and use**. You may not copy, modify, redistribute,
+- MuteBind is **free to download and use**. You may not copy, modify, redistribute,
 sell, or reverse-engineer it. See [LICENSE](LICENSE) for details.
